@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">TrackYS</string>
+
+    <!-- NotificationHelper.kt -->
+    <string name="channel_name_reminders">Rappels d\'abonnement</string>
+    <string name="channel_desc_reminders">Notifications pour les renouvellements d\'abonnement à venir</string>
+
+    <!-- DashboardScreen.kt -->
+    <string name="app_name_toolbar">TrackYS</string>
+    <string name="add_subscription">Ajouter un abonnement</string>
+    <string name="monthly_expenses">Dépenses mensuelles</string>
+    <string name="no_subscriptions">Abonnement inexistant. Appuyez sur + pour en ajouter un !</string>
+    <string name="error_refresh_rates">Échec de la mise à jour des taux de change (mode hors ligne)</string>
+
+    <!-- AnalyticsScreen.kt -->
+    <string name="analytics_title">Analyse des dépenses</string>
+    <string name="analytics_empty">Ajoutez des abonnements pour voir les analyses</string>
+    <string name="category_distribution">Répartition par catégorie</string>
+
+    <!-- AddEditScreen.kt -->
+    <string name="cancel">Annuler</string>
+    <string name="ok">OK</string>
+    <string name="edit_subscription">Modifier l\'abonnement</string>
+    <string name="new_subscription">Nouvel abonnement</string>
+    <string name="delete">Supprimer</string>
+    <string name="service_name">Nom du service</string>
+    <string name="service_name_placeholder">ex. Spotify, Netflix, ChatGPT</string>
+    <string name="cost">Coût</string>
+    <string name="cost_placeholder">9.99</string>
+    <string name="currency">Devise</string>
+    <string name="category">Catégorie</string>
+    <string name="billing_cycle">Cycle de facturation</string>
+    <string name="payment_date">Date de début / prochain paiement</string>
+    <string name="select_date">Sélectionner la date</string>
+    <string name="save_changes">Enregistrer les modifications</string>
+    <string name="create_subscription">Créer un abonnement</string>
+    <string name="back">Retour</string>
+    <string name="add_custom_category">+ Ajouter une catégorie</string>
+    <string name="enter_category_name">Entrez le nom de la catégorie</string>
+
+    <!-- Billing Cycles -->
+    <string name="billing_cycle_monthly">Mensuel</string>
+    <string name="billing_cycle_weekly">Hebdomadaire</string>
+    <string name="billing_cycle_yearly">Annuel</string>
+
+    <!-- Categories -->
+    <string name="category_entertainment">Divertissement</string>
+    <string name="category_work">Travail</string>
+    <string name="category_utilities">Services publics</string>
+    <string name="category_education">Éducation</string>
+    <string name="category_health">Santé</string>
+    <string name="category_other">Autre</string>
+
+    <string name="subscription_not_found">Abonnement introuvable</string>
+    <string name="error_name_empty">Le nom ne peut pas être vide</string>
+    <string name="error_cost_invalid">Entrez un montant valide supérieur à 0</string>
+
+    <!-- SubscriptionCard.kt -->
+    <string name="monthly_suffix">/mois</string>
+
+    <!-- DonutChart.kt -->
+    <string name="total_per_month">Total/mois</string>
+
+    <!-- ReminderWorker.kt -->
+    <string name="reminder_title">Paiement demain : %1$s</string>
+    <string name="reminder_message">Montant dû : %1$s %2$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Paramètres</string>
+    <string name="main_currency">Devise principale</string>
+    <string name="main_currency_desc">Devise dans laquelle tous les abonnements seront convertis</string>
+    <string name="select_currency">Sélectionner la devise</string>
+    <string name="nav_dashboard">Accueil</string>
+    <string name="nav_analytics">Analyses</string>
+    <string name="nav_settings">Paramètres</string>
+    <string name="export_data">Exporter les données</string>
+    <string name="export_data_desc">Enregistrer tous les abonnements dans un fichier</string>
+    <string name="import_data">Importer les données</string>
+    <string name="import_data_desc">Restaurer les abonnements à partir d\'un fichier</string>
+    <string name="export_success">Données exportées avec succès</string>
+    <string name="import_success">Données importées avec succès</string>
+    <string name="error_import">Erreur lors de l\'importation du fichier</string>
+    <string name="error_export">Erreur lors de l\'exportation du fichier</string>
+    <string name="category_general">Général</string>
+    <string name="category_data_backup">Données et sauvegarde</string>
+    <string name="category_danger_zone">Zone dangereuse</string>
+    <string name="share_data">Partager les données</string>
+    <string name="share_data_desc">Envoyer le fichier d\'abonnements</string>
+    <string name="share_chooser_title">Envoyer les abonnements</string>
+    <string name="category_all">Tous</string>
+    <string name="manage_categories">Gérer les catégories</string>
+    <string name="manage_categories_desc">Supprimer et configurer la liste des catégories</string>
+    <string name="cannot_delete_other">La catégorie \'Other\' ne peut pas être supprimée</string>
+    <string name="reset_app_data">Réinitialiser toutes les données</string>
+    <string name="reset_app_data_desc">Supprimer tous les abonnements et restaurer l\'état par défaut</string>
+    <string name="reset_warning_title">Attention ! Action irréversible</string>
+    <string name="reset_warning_message">Êtes-vous sûr de vouloir supprimer tous les abonnements et catégories personnalisées ? Cette action est irréversible.</string>
+    <string name="reset_confirm">Tout supprimer</string>
+    <string name="reset_success">Application réinitialisée à l\'état par défaut</string>
+
+    <!-- Bulk Operations -->
+    <string name="selected_count">Séléctionné : %1$d</string>
+    <string name="change_category">Changer de catégorie</string>
+    <string name="delete_selected">Supprimer la sélection</string>
+    <string name="bulk_delete_confirm_title">Supprimer les abonnements sélectionnés ?</string>
+    <string name="bulk_delete_confirm_msg">Voulez-vous vraiment supprimer les %1$d abonnements sélectionnés ?</string>
+    <string name="select_new_category">Sélectionner une nouvelle catégorie</string>
+    <string name="choose_category_color">Choisir la couleur de la catégorie</string>
+</resources>

@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">TrackYS</string>
+
+    <!-- NotificationHelper.kt -->
+    <string name="channel_name_reminders">Subscription Reminders</string>
+    <string name="channel_desc_reminders">Notifications for upcoming subscription renewals</string>
+
+    <!-- DashboardScreen.kt -->
+    <string name="app_name_toolbar">TrackYS</string>
+    <string name="add_subscription">Add subscription</string>
+    <string name="monthly_expenses">Monthly expenses</string>
+    <string name="no_subscriptions">No subscriptions. Tap + to add one!</string>
+    <string name="error_refresh_rates">Failed to refresh exchange rates (offline mode)</string>
+
+    <!-- AnalyticsScreen.kt -->
+    <string name="analytics_title">Expense Analytics</string>
+    <string name="analytics_empty">Add subscriptions to view analytics</string>
+    <string name="category_distribution">Category breakdown</string>
+
+    <!-- AddEditScreen.kt -->
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="edit_subscription">Edit Subscription</string>
+    <string name="new_subscription">New Subscription</string>
+    <string name="delete">Delete</string>
+    <string name="service_name">Service name</string>
+    <string name="service_name_placeholder">e.g. Spotify, Netflix, ChatGPT</string>
+    <string name="cost">Cost</string>
+    <string name="cost_placeholder">9.99</string>
+    <string name="currency">Currency</string>
+    <string name="category">Category</string>
+    <string name="billing_cycle">Billing cycle</string>
+    <string name="payment_date">Start / next payment date</string>
+    <string name="select_date">Select date</string>
+    <string name="save_changes">Save changes</string>
+    <string name="create_subscription">Create subscription</string>
+    <string name="back">Back</string>
+    <string name="add_custom_category">+ Add Category</string>
+    <string name="enter_category_name">Enter category name</string>
+
+    <!-- Billing Cycles -->
+    <string name="billing_cycle_monthly">Monthly</string>
+    <string name="billing_cycle_weekly">Weekly</string>
+    <string name="billing_cycle_yearly">Yearly</string>
+
+    <!-- Categories -->
+    <string name="category_entertainment">Entertainment</string>
+    <string name="category_work">Work</string>
+    <string name="category_utilities">Utilities</string>
+    <string name="category_education">Education</string>
+    <string name="category_health">Health</string>
+    <string name="category_other">Other</string>
+
+    <string name="subscription_not_found">Subscription not found</string>
+    <string name="error_name_empty">Name cannot be empty</string>
+    <string name="error_cost_invalid">Enter a valid amount greater than 0</string>
+
+    <!-- SubscriptionCard.kt -->
+    <string name="monthly_suffix">/mo</string>
+
+    <!-- DonutChart.kt -->
+    <string name="total_per_month">Total/mo</string>
+
+    <!-- ReminderWorker.kt -->
+    <string name="reminder_title">Payment tomorrow: %1$s</string>
+    <string name="reminder_message">Amount due: %1$s %2$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="main_currency">Main currency</string>
+    <string name="main_currency_desc">Currency to which all subscriptions will be converted</string>
+    <string name="select_currency">Select currency</string>
+    <string name="nav_dashboard">Home</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_settings">Settings</string>
+    <string name="export_data">Export Data</string>
+    <string name="export_data_desc">Save all subscriptions to a file</string>
+    <string name="import_data">Import Data</string>
+    <string name="import_data_desc">Restore subscriptions from a file</string>
+    <string name="export_success">Data exported successfully</string>
+    <string name="import_success">Data imported successfully</string>
+    <string name="error_import">Error importing file</string>
+    <string name="error_export">Error exporting file</string>
+    <string name="category_general">General</string>
+    <string name="category_data_backup">Data &amp; Backup</string>
+    <string name="category_danger_zone">Danger Zone</string>
+    <string name="share_data">Share Data</string>
+    <string name="share_data_desc">Send subscriptions file</string>
+    <string name="share_chooser_title">Send subscriptions</string>
+    <string name="category_all">All</string>
+    <string name="manage_categories">Manage Categories</string>
+    <string name="manage_categories_desc">Delete and configure list of categories</string>
+    <string name="cannot_delete_other">Category \'Other\' cannot be deleted</string>
+    <string name="reset_app_data">Reset All Data</string>
+    <string name="reset_app_data_desc">Delete all subscriptions and restore default app state</string>
+    <string name="reset_warning_title">Warning! Irreversible Action</string>
+    <string name="reset_warning_message">Are you sure you want to delete all subscriptions and custom categories? This action cannot be undone.</string>
+    <string name="reset_confirm">Delete Everything</string>
+    <string name="reset_success">App reset to default state</string>
+
+    <!-- Bulk Operations -->
+    <string name="selected_count">Selected: %1$d</string>
+    <string name="change_category">Change Category</string>
+    <string name="delete_selected">Delete Selected</string>
+    <string name="bulk_delete_confirm_title">Delete Selected Subscriptions?</string>
+    <string name="bulk_delete_confirm_msg">Are you sure you want to delete %1$d selected subscriptions?</string>
+    <string name="select_new_category">Select New Category</string>
+    <string name="choose_category_color">Choose Category Color</string>
+</resources>

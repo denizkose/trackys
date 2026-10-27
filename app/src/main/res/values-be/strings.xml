@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">TrackYS</string>
+
+    <!-- NotificationHelper.kt -->
+    <string name="channel_name_reminders">Напаміны пра падпіскі</string>
+    <string name="channel_desc_reminders">Паведамленні пра набліжэнне даты спісання падпісак</string>
+
+    <!-- DashboardScreen.kt -->
+    <string name="app_name_toolbar">TrackYS</string>
+    <string name="add_subscription">Дадаць падпіску</string>
+    <string name="monthly_expenses">Выдаткі на месяц</string>
+    <string name="no_subscriptions">Няма падпісак. Націсніце +, каб дадаць!</string>
+    <string name="error_refresh_rates">Не ўдалося абнавіць курсы валют (афлайн-рэжым)</string>
+
+    <!-- AnalyticsScreen.kt -->
+    <string name="analytics_title">Аналітыка выдаткаў</string>
+    <string name="analytics_empty">Дадайце падпіскі, каб убачыць аналітыку</string>
+    <string name="category_distribution">Размеркаванне па катэгорыях</string>
+
+    <!-- AddEditScreen.kt -->
+    <string name="cancel">Скасаваць</string>
+    <string name="ok">ОК</string>
+    <string name="edit_subscription">Рэдагаваць падпіску</string>
+    <string name="new_subscription">Новая падпіска</string>
+    <string name="delete">Выдаліць</string>
+    <string name="service_name">Назва сэрвісу</string>
+    <string name="service_name_placeholder">Напр. Spotify, Netflix, ChatGPT</string>
+    <string name="cost">Кошт</string>
+    <string name="cost_placeholder">9.99</string>
+    <string name="currency">Валюта</string>
+    <string name="category">Катэгорыя</string>
+    <string name="billing_cycle">Перафадычнасць спісання</string>
+    <string name="payment_date">Дата пачатку / наступнага плацяжу</string>
+    <string name="select_date">Выбраць дату</string>
+    <string name="save_changes">Захаваць змены</string>
+    <string name="create_subscription">Стварыць падпіску</string>
+    <string name="back">Назад</string>
+    <string name="add_custom_category">+ Дадаць катэгорыю</string>
+    <string name="enter_category_name">Увядзіце назву катэгорыі</string>
+
+    <!-- Billing Cycles -->
+    <string name="billing_cycle_monthly">Штомесяц</string>
+    <string name="billing_cycle_weekly">Штотыдзень</string>
+    <string name="billing_cycle_yearly">Штогод</string>
+
+    <!-- Categories -->
+    <string name="category_entertainment">Развагі</string>
+    <string name="category_work">Праца</string>
+    <string name="category_utilities">Камунальныя</string>
+    <string name="category_education">Адукацыя</string>
+    <string name="category_health">Здароўе</string>
+    <string name="category_other">Іншае</string>
+
+    <string name="subscription_not_found">Падпіска не знойдзена</string>
+    <string name="error_name_empty">Назва не можа быць пустым</string>
+    <string name="error_cost_invalid">Увядзіце карэктную суму большую за 0</string>
+
+    <!-- SubscriptionCard.kt -->
+    <string name="monthly_suffix">/мес</string>
+
+    <!-- DonutChart.kt -->
+    <string name="total_per_month">Усяго/мес</string>
+
+    <!-- ReminderWorker.kt -->
+    <string name="reminder_title">Заўтра спісанне: %1$s</string>
+    <string name="reminder_message">Сума да сплаты: %1$s %2$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Налады</string>
+    <string name="main_currency">Асноўная валюта</string>
+    <string name="main_currency_desc">Валюта, у якую будуць канвертавацца ўсе падпіскі</string>
+    <string name="select_currency">Выберыце валюту</string>
+    <string name="nav_dashboard">Галоўная</string>
+    <string name="nav_analytics">Аналітыка</string>
+    <string name="nav_settings">Налады</string>
+    <string name="export_data">Экспарт даных</string>
+    <string name="export_data_desc">Захаваць усе падпіскі ў файл</string>
+    <string name="import_data">Імпарт даных</string>
+    <string name="import_data_desc">Аднавіць падпіскі з файлу</string>
+    <string name="export_success">Даныя паспяхова экспартаваныя</string>
+    <string name="import_success">Даныя паспяхова імпартаваныя</string>
+    <string name="error_import">Памылка імпарту файлу</string>
+    <string name="error_export">Памылка экспарту файлу</string>
+    <string name="category_general">Агульныя</string>
+    <string name="category_data_backup">Даныя і рэзервовае капіраванне</string>
+    <string name="category_danger_zone">Небяспечная зона</string>
+    <string name="share_data">Падзяліцца данымі</string>
+    <string name="share_data_desc">Адправіць файл з падпіскамі</string>
+    <string name="share_chooser_title">Адправіць падпіскі</string>
+    <string name="category_all">Усе</string>
+    <string name="manage_categories">Кіраванне катэгорыямі</string>
+    <string name="manage_categories_desc">Видаленне і налада спісу катэгорый</string>
+    <string name="cannot_delete_other">Катэгорыю \'Other\' нельга выдаліць</string>
+    <string name="reset_app_data">Ачысціць усе даныя</string>
+    <string name="reset_app_data_desc">Видаліць усе падпіскі і вярнуцца да пачатковага стану</string>
+    <string name="reset_warning_title">Увага! Незваротная дзея</string>
+    <string name="reset_warning_message">Ви ўпэўненыя, што хочаце видаліць усе падпіскі і захаваныя катэгорыі? Гэтую дзею немагчыма скасаваць.</string>
+    <string name="reset_confirm">Ачысціць усё</string>
+    <string name="reset_success">Праграма скінута да пачатковага стану</string>
+
+    <!-- Bulk Operations -->
+    <string name="selected_count">Выбрана: %1$d</string>
+    <string name="change_category">Змяніць катэгорыю</string>
+    <string name="delete_selected">Видаліць выбранае</string>
+    <string name="bulk_delete_confirm_title">Видаліць выбраныя падпіскі?</string>
+    <string name="bulk_delete_confirm_msg">Ви ўпэўненыя, што хочаце видаліць %1$d выбраных падпісак?</string>
+    <string name="select_new_category">Выберыце новую катэгорыю</string>
+    <string name="choose_category_color">Выберыце колер катэгорыі</string>
+</resources>

@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">TrackYS</string>
+
+    <!-- NotificationHelper.kt -->
+    <string name="channel_name_reminders">Abonelik Hatırlatıcıları</string>
+    <string name="channel_desc_reminders">Yaklaşan abonelik ödemeleri için bildirimler</string>
+
+    <!-- DashboardScreen.kt -->
+    <string name="app_name_toolbar">TrackYS</string>
+    <string name="add_subscription">Abonelik ekle</string>
+    <string name="monthly_expenses">Aylık giderler</string>
+    <string name="no_subscriptions">Henüz abonelik yok. Eklemek için + butonuna dokunun!</string>
+    <string name="error_refresh_rates">Döviz kurları güncellenemedi (çevrimdışı mod)</string>
+
+    <!-- AnalyticsScreen.kt -->
+    <string name="analytics_title">Harcama Analizi</string>
+    <string name="analytics_empty">Analizleri görmek için abonelik ekleyin</string>
+    <string name="category_distribution">Kategori dağılımı</string>
+
+    <!-- AddEditScreen.kt -->
+    <string name="cancel">İptal</string>
+    <string name="ok">Tamam</string>
+    <string name="edit_subscription">Aboneliği Düzenle</string>
+    <string name="new_subscription">Yeni Abonelik</string>
+    <string name="delete">Sil</string>
+    <string name="service_name">Hizmet adı</string>
+    <string name="service_name_placeholder">Örn. Spotify, Netflix, ChatGPT</string>
+    <string name="cost">Tutar</string>
+    <string name="cost_placeholder">9.99</string>
+    <string name="currency">Para birimi</string>
+    <string name="category">Kategori</string>
+    <string name="billing_cycle">Ödeme periyodu</string>
+    <string name="payment_date">Başlangıç / sonraki ödeme tarihi</string>
+    <string name="select_date">Tarih seçin</string>
+    <string name="save_changes">Değişiklikleri kaydet</string>
+    <string name="create_subscription">Abonelik oluştur</string>
+    <string name="back">Geri</string>
+    <string name="add_custom_category">+ Kategori Ekle</string>
+    <string name="enter_category_name">Kategori adını girin</string>
+
+    <!-- Billing Cycles -->
+    <string name="billing_cycle_monthly">Aylık</string>
+    <string name="billing_cycle_weekly">Haftalık</string>
+    <string name="billing_cycle_yearly">Yıllık</string>
+
+    <!-- Categories -->
+    <string name="category_entertainment">Eğlence</string>
+    <string name="category_work">İş</string>
+    <string name="category_utilities">Fatura &amp; Hizmetler</string>
+    <string name="category_education">Eğitim</string>
+    <string name="category_health">Sağlık</string>
+    <string name="category_other">Diğer</string>
+
+    <string name="subscription_not_found">Abonelik bulunamadı</string>
+    <string name="error_name_empty">Ad alanı boş bırakılamaz</string>
+    <string name="error_cost_invalid">Lütfen 0\'dan büyük geçerli bir tutar girin</string>
+
+    <!-- SubscriptionCard.kt -->
+    <string name="monthly_suffix">/ay</string>
+
+    <!-- DonutChart.kt -->
+    <string name="total_per_month">Toplam/ay</string>
+
+    <!-- ReminderWorker.kt -->
+    <string name="reminder_title">Yarın ödeme var: %1$s</string>
+    <string name="reminder_message">Ödenecek tutar: %1$s %2$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="main_currency">Ana para birimi</string>
+    <string name="main_currency_desc">Tüm aboneliklerin dönüştürüleceği para birimi</string>
+    <string name="select_currency">Para birimi seçin</string>
+    <string name="nav_dashboard">Anasayfa</string>
+    <string name="nav_analytics">Analiz</string>
+    <string name="nav_settings">Ayarlar</string>
+    <string name="export_data">Verileri Dışa Aktar</string>
+    <string name="export_data_desc">Tüm abonelikleri bir dosyaya kaydet</string>
+    <string name="import_data">Verileri İçe Aktar</string>
+    <string name="import_data_desc">Abonelikleri dosyadan geri yükle</string>
+    <string name="export_success">Veriler başarıyla dışa aktarıldı</string>
+    <string name="import_success">Veriler başarıyla içe aktarıldı</string>
+    <string name="error_import">Dosya içe aktarma hatası</string>
+    <string name="error_export">Dosya dışa aktarma hatası</string>
+    <string name="category_general">Genel</string>
+    <string name="category_data_backup">Veri ve Yedekleme</string>
+    <string name="category_danger_zone">Tehlikeli Bölge</string>
+    <string name="share_data">Verileri Paylaş</string>
+    <string name="share_data_desc">Abonelik dosyasını gönder</string>
+    <string name="share_chooser_title">Abonelikleri gönder</string>
+    <string name="category_all">Tümü</string>
+    <string name="manage_categories">Kategorileri Yönet</string>
+    <string name="manage_categories_desc">Kategori listesini silin ve düzenleyin</string>
+    <string name="cannot_delete_other">\'Other\' kategorisi silinemez</string>
+    <string name="reset_app_data">Tüm Verileri Sıfırla</string>
+    <string name="reset_app_data_desc">Tüm abonelikleri silin ve varsayılan duruma dönün</string>
+    <string name="reset_warning_title">Uyarı! Geri Alınamaz İşlem</string>
+    <string name="reset_warning_message">Tüm abonelikleri ve özel kategorileri silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.</string>
+    <string name="reset_confirm">Hepsini Sil</string>
+    <string name="reset_success">Uygulama varsayılan duruma sıfırlandı</string>
+
+    <!-- Bulk Operations -->
+    <string name="selected_count">Seçilen: %1$d</string>
+    <string name="change_category">Kategoriyi Değiştir</string>
+    <string name="delete_selected">Seçilenleri Sil</string>
+    <string name="bulk_delete_confirm_title">Seçilen Abonelikleri Sil?</string>
+    <string name="bulk_delete_confirm_msg">Seçilen %1$d aboneliği silmek istediğinizden emin misiniz?</string>
+    <string name="select_new_category">Yeni Kategori Seçin</string>
+    <string name="choose_category_color">Kategori Rengi Seçin</string>
+</resources>

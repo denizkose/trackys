@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">TrackYS</string>
+
+    <!-- NotificationHelper.kt -->
+    <string name="channel_name_reminders">Promemoria abbonamenti</string>
+    <string name="channel_desc_reminders">Notifiche per i prossimi rinnovi degli abbonamenti</string>
+
+    <!-- DashboardScreen.kt -->
+    <string name="app_name_toolbar">TrackYS</string>
+    <string name="add_subscription">Aggiungi abbonamento</string>
+    <string name="monthly_expenses">Spese mensili</string>
+    <string name="no_subscriptions">Nessun abbonamento. Tocca + per aggiungerne uno!</string>
+    <string name="error_refresh_rates">Impossibile aggiornare i tassi di cambio (modalità offline)</string>
+
+    <!-- AnalyticsScreen.kt -->
+    <string name="analytics_title">Analisi delle spese</string>
+    <string name="analytics_empty">Aggiungi abbonamenti per visualizzare l\'analisi</string>
+    <string name="category_distribution">Ripartizione per categoria</string>
+
+    <!-- AddEditScreen.kt -->
+    <string name="cancel">Annulla</string>
+    <string name="ok">OK</string>
+    <string name="edit_subscription">Modifica abbonamento</string>
+    <string name="new_subscription">Nuovo abbonamento</string>
+    <string name="delete">Elimina</string>
+    <string name="service_name">Nome del servizio</string>
+    <string name="service_name_placeholder">es. Spotify, Netflix, ChatGPT</string>
+    <string name="cost">Costo</string>
+    <string name="cost_placeholder">9.99</string>
+    <string name="currency">Valuta</string>
+    <string name="category">Categoria</string>
+    <string name="billing_cycle">Ciclo di fatturazione</string>
+    <string name="payment_date">Data di inizio / prossimo pagamento</string>
+    <string name="select_date">Seleziona data</string>
+    <string name="save_changes">Salva modifiche</string>
+    <string name="create_subscription">Crea abbonamento</string>
+    <string name="back">Indietro</string>
+    <string name="add_custom_category">+ Aggiungi categoria</string>
+    <string name="enter_category_name">Inserisci il nome della categoria</string>
+
+    <!-- Billing Cycles -->
+    <string name="billing_cycle_monthly">Mensile</string>
+    <string name="billing_cycle_weekly">Settimanale</string>
+    <string name="billing_cycle_yearly">Annuale</string>
+
+    <!-- Categories -->
+    <string name="category_entertainment">Intrattenimento</string>
+    <string name="category_work">Lavoro</string>
+    <string name="category_utilities">Utenze</string>
+    <string name="category_education">Istruzione</string>
+    <string name="category_health">Salute</string>
+    <string name="category_other">Altro</string>
+
+    <string name="subscription_not_found">Abbonamento non trovato</string>
+    <string name="error_name_empty">Il nome non può essere vuoto</string>
+    <string name="error_cost_invalid">Inserisci un importo valido maggiore di 0</string>
+
+    <!-- SubscriptionCard.kt -->
+    <string name="monthly_suffix">/mese</string>
+
+    <!-- DonutChart.kt -->
+    <string name="total_per_month">Totale/mese</string>
+
+    <!-- ReminderWorker.kt -->
+    <string name="reminder_title">Pagamento domani: %1$s</string>
+    <string name="reminder_message">Importo dovuto: %1$s %2$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Impostazioni</string>
+    <string name="main_currency">Valuta principale</string>
+    <string name="main_currency_desc">Valuta in cui verranno convertiti tutti gli abbonamenti</string>
+    <string name="select_currency">Seleziona valuta</string>
+    <string name="nav_dashboard">Home</string>
+    <string name="nav_analytics">Analisi</string>
+    <string name="nav_settings">Impostazioni</string>
+    <string name="export_data">Esporta dati</string>
+    <string name="export_data_desc">Salva tutti gli abbonamenti in un file</string>
+    <string name="import_data">Importa dati</string>
+    <string name="import_data_desc">Ripristina gli abbonamenti da un file</string>
+    <string name="export_success">Dati esportati con successo</string>
+    <string name="import_success">Dati importati con successo</string>
+    <string name="error_import">Errore durante l\'importazione del file</string>
+    <string name="error_export">Errore durante l\'esportazione del file</string>
+    <string name="category_general">Generale</string>
+    <string name="category_data_backup">Dati e backup</string>
+    <string name="category_danger_zone">Zona pericolosa</string>
+    <string name="share_data">Condividi dati</string>
+    <string name="share_data_desc">Invia file abbonamenti</string>
+    <string name="share_chooser_title">Invia abbonamenti</string>
+    <string name="category_all">Tutti</string>
+    <string name="manage_categories">Gestisci categorie</string>
+    <string name="manage_categories_desc">Elimina e configura l\'elenco delle categorie</string>
+    <string name="cannot_delete_other">La categoria \'Other\' non può essere eliminata</string>
+    <string name="reset_app_data">Azzera tutti i dati</string>
+    <string name="reset_app_data_desc">Elimina tutti gli abbonamenti e ripristina lo stato iniziale</string>
+    <string name="reset_warning_title">Attenzione! Azione irreversibile</string>
+    <string name="reset_warning_message">Sei sicuro di voler eliminare tutti gli abbonamenti e le categorie personalizzate? Questa azione non può essere annullata.</string>
+    <string name="reset_confirm">Elimina tutto</string>
+    <string name="reset_success">App ripristinata allo stato iniziale</string>
+
+    <!-- Bulk Operations -->
+    <string name="selected_count">Selezionati: %1$d</string>
+    <string name="change_category">Cambia categoria</string>
+    <string name="delete_selected">Elimina selezionati</string>
+    <string name="bulk_delete_confirm_title">Eliminare gli abbonamenti selezionati?</string>
+    <string name="bulk_delete_confirm_msg">Sei sicuro di voler eliminare %1$d abbonamenti selezionati?</string>
+    <string name="select_new_category">Seleziona nuova categoria</string>
+    <string name="choose_category_color">Scegli colore categoria</string>
+</resources>
